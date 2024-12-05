@@ -1,4 +1,3 @@
-/* General body styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,11 +6,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #f3e8e6, #ffe7e0); /* Warm pastel gradient */
-    color: #4a4a4a; /* Neutral dark for text */
+    color: #4a4a4a;
+    background: linear-gradient(135deg, #f3e8e6, #ffe7e0); 
+    
 }
 
-/* Hero section */
 .hero-section {
     width: 100%;
     height: 100vh;
@@ -21,7 +20,6 @@ body {
     background: linear-gradient(135deg, #fbe7e1, #ffe7d6); /* Soft pink-orange gradient */
 }
 
-/* Form container */
 .form-container {
     background: rgba(255, 255, 255, 0.9);
     padding: 40px;
@@ -31,12 +29,10 @@ body {
     width: 100%;
     animation: fadeInUp 1.2s ease-out;
 }
-
-/* Form title and description */
 .form-title {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #ff6f61; /* Coral highlight */
+    color: #ff6f61; 
 }
 .form-description {
     font-size: 1rem;
@@ -44,27 +40,24 @@ body {
     color: #7a7a7a;
 }
 
-/* Section title */
 .form-section-title {
     font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #f85c50; /* Strong coral for headings */
+    color: #f85c50; 
 }
 
-/* Input fields */
 input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select, textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 1px solid #ffc1a3; /* Light peach border */
+    border: 1px solid #ffc1a3; 
     border-radius: 5px;
     font-size: 1rem;
-    background: #fff8f2; /* Very light peach */
+    background: #fff8f2; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Placeholder text */
 input::placeholder, textarea::placeholder {
     color: #bbb;
 }
@@ -76,24 +69,21 @@ input:focus, select:focus, textarea:focus {
     box-shadow: 0 4px 8px rgba(255, 182, 150, 0.4);
 }
 
-/* Submit button */
 button {
     width: 100%;
     padding: 12px;
     border: none;
     border-radius: 5px;
-    background: #ff6f61; /* Coral button */
+    background: #ff6f61; 
     color: #fff;
     font-size: 1.2rem;
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
 }
 button:hover {
-    background: #e55b50; /* Slightly darker coral */
+    background: #e55b50
     transform: scale(1.1);
 }
-
-/* Keyframe animations */
 @keyframes fadeInUp {
     from {
         opacity: 0;
