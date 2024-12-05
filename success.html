@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Success</title>
+    <link rel="stylesheet" href="/style.css">
+    <script>
+        // JavaScript to handle random quotes
+        document.addEventListener("DOMContentLoaded", function () {
+            const quotes = [
+                "Education is the most powerful weapon which you can use to change the world. – Nelson Mandela",
+                "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt",
+                "Success is not the key to happiness. Happiness is the key to success. – Albert Schweitzer",
+                "Your education is a dress rehearsal for a life that is yours to lead. – Nora Ephron",
+                "Don’t let what you cannot do interfere with what you can do. – John Wooden",
+                "Learning never exhausts the mind. – Leonardo da Vinci"
+            ];
+
+            // Select a random quote
+            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            document.getElementById("quote").textContent = randomQuote;
+        });
+    </script>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-message">
+            <h1 class="success-title">Submission Successful!</h1>
+            <p id="quote" class="motivational-quote"></p>
+        </div>
+    </div>
+</body>
+</html>
