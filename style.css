@@ -62,7 +62,6 @@ input::placeholder, textarea::placeholder {
     color: #bbb;
 }
 
-/* Input focus */
 input:focus, select:focus, textarea:focus {
     outline: none;
     transform: scale(1.05);
@@ -84,6 +83,35 @@ button:hover {
     background: #e55b50
     transform: scale(1.1);
 }
+.navbar {
+    background-color: #ff6f61;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffe7d6;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
